@@ -19,7 +19,7 @@ buildHtml() {
         --to=html5 \
         --standalone \
         --no-highlight \
-        --css=https://cdn.jsdelivr.net/gh/duzyn/duzyn.github.io/assets/css/blog.css \
+        --css=https://edwardtufte.github.io/tufte-css/tufte.css \
         --variable=include-before:"<article> <section>" \
         --variable=include-after:"</section> </article>" \
         --output=sample-handout.html
@@ -38,7 +38,7 @@ buildPdf() {
         --no-highlight \
         --shift-heading-level-by=-1 \
         --metadata=documentclass:tufte-handout \
-        --metadata=CJKmainfont:"Noto Serif CJK SC" \
+        --metadata=XXXXXCJKmainfont:"Noto Serif CJK SC" \
         --output=sample-handout.pdf
 }
 
